@@ -1,0 +1,37 @@
+{
+  "executable": "D:\\codex_talk\\project_1\\tmp\\build_flask_runtime\\flask_plan.exe",
+  "executable_sha256": "ca42e2d8bf120b97ae8f262ed0f98569dfe9962622be55009f401c44cd73a23f",
+  "seeds": [
+    41,
+    42,
+    43
+  ],
+  "process_timeout": 15,
+  "python": "3.13.2",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "scenarios": {
+    "D:\\codex_talk\\project_1\\project_code\\FLASK_theory_validation\\examples\\dynobench_uni_bugtrap.yaml": "fbedc9c7d2496d4ac3eddea2098fa02ff8e7f42a50a0bec1f4f5cd91c100aad1",
+    "D:\\codex_talk\\project_1\\project_code\\FLASK_theory_validation\\examples\\dynobench_uni_wall.yaml": "0d8731c8626c965add598278e604cafa34003dd6463025244575cb553df8614d",
+    "D:\\codex_talk\\project_1\\project_code\\FLASK_theory_validation\\examples\\dynobench_quad2d_bugtrap.yaml": "91b1fb85a3dd0df1b18525b4769917db137225cb4e3c950e2d34386cce52f304",
+    "D:\\codex_talk\\project_1\\project_code\\FLASK_theory_validation\\examples\\dynobench_quad2d_hole.yaml": "19bda2fa1c64c710fd83b4af181d94a6927e648b8b8c2f9ee9601e34653a8903",
+    "D:\\codex_talk\\project_1\\project_code\\FLASK_theory_validation\\examples\\dynobench_quad3d_block.yaml": "59f2a096b77ae782a7c79a622b9b75be071c2f1dbd1d8a75aeb9d6d1c065a42f",
+    "D:\\codex_talk\\project_1\\project_code\\FLASK_theory_validation\\examples\\dynobench_quad3d_window.yaml": "d016e8ffa6cf0b5eca2b3a4b82f51c152645289a64964e38d1b42151c6390348"
+  },
+  "sources": {
+    "include\\flask\\bvp.h": "1ff30dec9084de29f8f53687a5891c22de9147d6db81a4cbf503f8aed9771ed7",
+    "include\\flask\\geometry.h": "96e24418c343fcd5e22b77dd58f73264daecf4993d844daa790e5ab0c19d894f",
+    "include\\flask\\io.h": "55b564a474ff46d7a03ccf930840f234141a1138cada33a1f1598f6197890776",
+    "include\\flask\\model.h": "c1ee466012eecbdf974693131752d74f8cb7fc09d3f1699f2d68fa4faf26ab7b",
+    "include\\flask\\planner.h": "be4891c439b0a54b6dad4c04698a3901cd033c79cec099ae4fa73ad7520b93b8",
+    "include\\flask\\validation.h": "fe7dc23a1eb2624013be1cb268ae6c40cb9d6d602cf31ce151616bbd6952abe6",
+    "src\\geometry.cpp": "d6ac6e309de6921e505aff4857669fb8c6dfe5faaa7d3a36c3464c68c43e6f10",
+    "src\\geometry_avx2.cpp": "957e6cbd58c39921fac83e8f822c5f1aafd16cb81c5d1fb73a21569eae09097b",
+    "src\\io.cpp": "02f38ff5d30313acb4fbe9f77d5312bd047d66ed0a557e6f6dd4bd97b8674ac3",
+    "src\\main.cpp": "815b8c9eb832a04cb1085721d6ca82cc9f93c4c72df513c1b3d71b5e8723b510",
+    "src\\run_integrator.cpp": "65a3edc188ed158a7fb89207166dfb1046edefda9d12f1e2e3073ff44ae66702",
+    "src\\run_quad2.cpp": "c306225cf94b8609841ec44ef0e3d4b3d987a0b0a292d7d388f0dfeaf1027f7a",
+    "src\\run_quad3.cpp": "571f18e7c62fe39ef2b9b3a725aea55e5545d4c72f668a3fc136b911c135ecae",
+    "src\\run_unicycle.cpp": "b3f80623a071af862c33448a6e6aabc9f7775929d0d9cc102d7c29a4dabd8c12"
+  },
+  "runner_sha256": "6f1bb67a066d099e3d8854770503d7e9340594d3f162a7615208429c5737507b"
+}

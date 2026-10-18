@@ -1,0 +1,7 @@
+scenario,seed,status,reason,exit_code,nodes,cost,planning_seconds,process_seconds,trajectory_file
+dynobench_uni_bugtrap,41,FAILED,iteration_limit,2,4,,0.0500074,0.1256504000048153,project_code\FLASK_theory_validation\results\ompl_policy_20261012\dynobench_uni_bugtrap_41.yaml
+dynobench_uni_wall,41,FAILED,iteration_limit,2,67,,0.0583596,0.12821039999835193,project_code\FLASK_theory_validation\results\ompl_policy_20261012\dynobench_uni_wall_41.yaml
+dynobench_quad2d_bugtrap,41,FAILED,iteration_limit,2,26,,0.133064,0.209589700010838,project_code\FLASK_theory_validation\results\ompl_policy_20261012\dynobench_quad2d_bugtrap_41.yaml
+dynobench_quad2d_hole,41,FAILED,iteration_limit,2,57,,0.158542,0.2289288000029046,project_code\FLASK_theory_validation\results\ompl_policy_20261012\dynobench_quad2d_hole_41.yaml
+dynobench_quad3d_window,41,FAILED,iteration_limit,2,12,,0.122684,0.19294380000792444,project_code\FLASK_theory_validation\results\ompl_policy_20261012\dynobench_quad3d_window_41.yaml
+dynobench_quad3d_block,41,FAILED,iteration_limit,2,15,,0.293344,0.3678733000124339,project_code\FLASK_theory_validation\results\ompl_policy_20261012\dynobench_quad3d_block_41.yaml

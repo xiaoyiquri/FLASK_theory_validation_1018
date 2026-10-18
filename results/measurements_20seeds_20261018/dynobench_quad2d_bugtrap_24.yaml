@@ -1,0 +1,93 @@
+result_version: 2
+source: D:\codex_talk\project_1\project_code\FLASK_theory_validation\examples\dynobench_quad2d_bugtrap.yaml
+input_configuration: {robot: quad2d, n: 2, r: 2, robot_radius: 0.1, sphere_cell_size: 0.2, bounds: {lower: [-10, -10, -4, -4], upper: [10, 10, 4, 4]}, dynobench: {environment: dynobench_data/quad2d_bugtrap.yaml, model: dynobench_data/quad2d_v0_model.yaml, visual_model: dynobench_original_models/quad2d_v0.yaml, model_profile: paper; original native model retained for visualization/comparison}, planner: {type: rrtconnect, seed: 24, iterations: 1000000, max_nodes: 20000, timeout: 10, range: 0.25, shortcut: true, shortcut_attempts: 100, goal_bias: 0, connect_steps: 0}, validation: {step: 0.01, max_samples: 20000, simd: true, continuous_sphere_collision: false, enforce_physical_continuity: false, enforce_physical_endpoints: false}, rho: 1, weight: [[1, 0], [0, 1]], parameter_provenance: {r: paper practical r2; not the full-state Assumption 1 contract for quads, rho: "paper VII-A: 1", weight: user-specified identity; private experiment R unconfirmed, sampler: "uniform flat box; public OMPL reference, private VAMP experiment unconfirmed", range_bounds_radius_resolution_budget: explicit local settings; paper defaults unconfirmed, goal_bias_connect: "public RRTConnect: no goal bias, connect until trapped/reached or resource limit", validation: Algorithm 3 finite grid; extra continuous sphere certificate disabled}, recording: {checkpoints_seconds: [0.001, 0.005, 0.01, 0.05, 0.1, 0.5, 1, 5, 10]}, dynobench_environment_snapshot: {name: quad2d_v0-bugtrap, environment: {min: [0.0, 0.0], max: [6, 6], obstacles: [{type: box, center: [4.5, 3], size: [0.2, 3.2]}, {type: box, center: [3, 1.5], size: [3.2, 0.2]}, {type: box, center: [3, 4.5], size: [3.2, 0.2]}, {type: box, center: [1.5, 4.05], size: [0.2, 1.1]}, {type: box, center: [1.5, 1.95], size: [0.2, 1.1]}]}, robots: [{type: quad2d_v0, start: [3.8, 3, 0, 0, 0, 0], goal: [5.2, 3, 0, 0, 0, 0]}]}, dynobench_model_snapshot: {distance_weights: [1., .5, .2, .2], max_f: 1.3, max_vel: 4, max_angular_vel: 8, max_acc: 20, max_angular_acc: 20, dt: 0.01, m: 0.034, I: 1e-4, l: 0.1, size: [.6, .2], shape: box, dynamics: quad2d, drag_against_vel: false}, dynobench_visual_model_snapshot: {distance_weights: [1., .5, .2, .2], max_f: 1.3, max_vel: 4, max_angular_vel: 8, max_acc: 20, max_angular_acc: 20, dt: 0.01, m: 0.034, I: 1e-4, l: 0.1, size: [.6, .2], shape: box, dynamics: quad2d, drag_against_vel: false}}
+robot: quad2d
+planner: rrtconnect
+seed: 24
+n: 2
+r: 2
+rho: 1
+budget_seconds: 10
+planning_time_basis: wall elapsed search + Algorithm 4, excludes export and length integration
+numeric_precision: float64
+sampling_policy: flat_uniform
+validation_backend: avx2_double4x2_full
+asymptotic_optimality_verified: false
+continuous_control_certificate: false
+continuous_sphere_check: false
+planning_geometry: single sphere robot; conservative sphere cover of obstacles
+physical_continuity_enforced: false
+physical_endpoints_enforced: false
+dynobench_checker_verified: false
+reduced_order_result: true
+avx2_available: true
+sampling_step: 0.01
+goal_region_radius: 0
+flat_start: [3.7999999999999998, 3, 0, 0]
+flat_goal: [5.2000000000000002, 3, 0, 0]
+cost: ~
+duration: ~
+trajectory_length_m: ~
+segments:
+  []
+samples:
+  []
+success: false
+reason: node_limit
+iterations: 192
+nodes: 20000
+bvp_queries: 40269
+shortcuts: 0
+extension_attempts: 20188
+valid_extensions: 19998
+valid_extension_rate: 0.9905884683970676
+planning_seconds: 2.8884617000000001
+search_seconds: 2.8884617000000001
+postprocessing_seconds: 0
+first_solution: ~
+final_solution: ~
+incumbents:
+  []
+first_solution_seconds: ~
+first_solution_cost: ~
+first_solution_length_m: ~
+cost_before_shortcut: ~
+terminated_early: true
+cost_time_semantics: first solution and accepted shortcuts only; hold incumbent after termination, no restarts
+validation:
+  edges: 20108
+  samples: 7000089
+  batches: 880013
+  collision_rejections: 97
+  physical_rejections: 13
+  certificate_rejections: 0
+  interval_rejections: 0
+  simd_batches: 880013
+  sample_budget_rejections: 0
+  flat_bound_rejections: 32
+  failure_counts:
+    numeric: 0
+    branch: 0
+    speed_zero: 0
+    speed_min: 0
+    speed_max: 0
+    omega: 0
+    acceleration: 0
+    jerk: 0
+    thrust: 0
+    motor: 6
+    angular_acceleration: 0
+    singularity: 0
+    sample_limit: 0
+    Collision: 97
+    FlatBounds: 32
+    SampleBudget: 0
+profiling:
+  enabled: false
+  nearest_seconds: 0
+  bvp_seconds: 0
+  interval_seconds: 0
+  jet_seconds: 0
+  physical_seconds: 0
+  collision_seconds: 0
+  certificate_seconds: 0

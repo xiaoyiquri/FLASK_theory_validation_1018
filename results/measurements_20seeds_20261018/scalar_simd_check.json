@@ -1,0 +1,19 @@
+{
+  "case": "quad3d_window",
+  "seed": 20,
+  "scope": "one-run functional parity check, not a general speedup estimate",
+  "scalar_seconds": 0.0297497,
+  "simd_seconds": 0.013826,
+  "stages": {
+    "first_solution": {
+      "cost_difference": 0.0,
+      "length_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    },
+    "final_solution": {
+      "cost_difference": 0.0,
+      "length_difference": 0.0,
+      "max_coefficient_difference": 0.0
+    }
+  }
+}

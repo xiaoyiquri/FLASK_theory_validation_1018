@@ -1,0 +1,250 @@
+{
+  "groups": [
+    {
+      "scenario": "dynobench_quad3d_window",
+      "runs": 1,
+      "successes": 1,
+      "success_rate": 1.0,
+      "failure_reasons": {},
+      "native_first_status": {
+        "not_requested": 1
+      },
+      "native_final_status": {
+        "not_requested": 1
+      },
+      "first_solution_ms": {
+        "n": 1,
+        "mean": 28.3959,
+        "sample_sd": null,
+        "median": 28.3959
+      },
+      "first_cost": {
+        "n": 1,
+        "mean": 36.447772872345816,
+        "sample_sd": null,
+        "median": 36.447772872345816
+      },
+      "first_length_m": {
+        "n": 1,
+        "mean": 15.266406378486561,
+        "sample_sd": null,
+        "median": 15.266406378486561
+      },
+      "first_duration": {
+        "n": 1,
+        "mean": 21.655070189236117,
+        "sample_sd": null,
+        "median": 21.655070189236117
+      },
+      "cost": {
+        "n": 1,
+        "mean": 10.90324973833878,
+        "sample_sd": null,
+        "median": 10.90324973833878
+      },
+      "trajectory_length_m": {
+        "n": 1,
+        "mean": 6.264189173417506,
+        "sample_sd": null,
+        "median": 6.264189173417506
+      },
+      "duration": {
+        "n": 1,
+        "mean": 8.040583807482367,
+        "sample_sd": null,
+        "median": 8.040583807482367
+      },
+      "planning_ms": {
+        "n": 1,
+        "mean": 29.7497,
+        "sample_sd": null,
+        "median": 29.7497
+      },
+      "final_available_ms": {
+        "n": 1,
+        "mean": 29.7221,
+        "sample_sd": null,
+        "median": 29.7221
+      },
+      "failed_planning_ms": {
+        "n": 0,
+        "mean": null,
+        "sample_sd": null,
+        "median": null
+      }
+    }
+  ],
+  "budget_statistics": [
+    {
+      "scenario": "dynobench_quad3d_window",
+      "budget_seconds": 0.001,
+      "runs": 1,
+      "successes": 0,
+      "success_rate": 0.0,
+      "cost_n": 0,
+      "cost_mean": null,
+      "cost_sample_sd": null,
+      "cost_median": null,
+      "trajectory_length_m_n": 0,
+      "trajectory_length_m_mean": null,
+      "trajectory_length_m_sample_sd": null,
+      "trajectory_length_m_median": null,
+      "duration_n": 0,
+      "duration_mean": null,
+      "duration_sample_sd": null,
+      "duration_median": null
+    },
+    {
+      "scenario": "dynobench_quad3d_window",
+      "budget_seconds": 0.005,
+      "runs": 1,
+      "successes": 0,
+      "success_rate": 0.0,
+      "cost_n": 0,
+      "cost_mean": null,
+      "cost_sample_sd": null,
+      "cost_median": null,
+      "trajectory_length_m_n": 0,
+      "trajectory_length_m_mean": null,
+      "trajectory_length_m_sample_sd": null,
+      "trajectory_length_m_median": null,
+      "duration_n": 0,
+      "duration_mean": null,
+      "duration_sample_sd": null,
+      "duration_median": null
+    },
+    {
+      "scenario": "dynobench_quad3d_window",
+      "budget_seconds": 0.01,
+      "runs": 1,
+      "successes": 0,
+      "success_rate": 0.0,
+      "cost_n": 0,
+      "cost_mean": null,
+      "cost_sample_sd": null,
+      "cost_median": null,
+      "trajectory_length_m_n": 0,
+      "trajectory_length_m_mean": null,
+      "trajectory_length_m_sample_sd": null,
+      "trajectory_length_m_median": null,
+      "duration_n": 0,
+      "duration_mean": null,
+      "duration_sample_sd": null,
+      "duration_median": null
+    },
+    {
+      "scenario": "dynobench_quad3d_window",
+      "budget_seconds": 0.05,
+      "runs": 1,
+      "successes": 1,
+      "success_rate": 1.0,
+      "cost_n": 1,
+      "cost_mean": 10.90324973833878,
+      "cost_sample_sd": null,
+      "cost_median": 10.90324973833878,
+      "trajectory_length_m_n": 1,
+      "trajectory_length_m_mean": 6.264189173417506,
+      "trajectory_length_m_sample_sd": null,
+      "trajectory_length_m_median": 6.264189173417506,
+      "duration_n": 1,
+      "duration_mean": 8.040583807482367,
+      "duration_sample_sd": null,
+      "duration_median": 8.040583807482367
+    },
+    {
+      "scenario": "dynobench_quad3d_window",
+      "budget_seconds": 0.1,
+      "runs": 1,
+      "successes": 1,
+      "success_rate": 1.0,
+      "cost_n": 1,
+      "cost_mean": 10.90324973833878,
+      "cost_sample_sd": null,
+      "cost_median": 10.90324973833878,
+      "trajectory_length_m_n": 1,
+      "trajectory_length_m_mean": 6.264189173417506,
+      "trajectory_length_m_sample_sd": null,
+      "trajectory_length_m_median": 6.264189173417506,
+      "duration_n": 1,
+      "duration_mean": 8.040583807482367,
+      "duration_sample_sd": null,
+      "duration_median": 8.040583807482367
+    },
+    {
+      "scenario": "dynobench_quad3d_window",
+      "budget_seconds": 0.5,
+      "runs": 1,
+      "successes": 1,
+      "success_rate": 1.0,
+      "cost_n": 1,
+      "cost_mean": 10.90324973833878,
+      "cost_sample_sd": null,
+      "cost_median": 10.90324973833878,
+      "trajectory_length_m_n": 1,
+      "trajectory_length_m_mean": 6.264189173417506,
+      "trajectory_length_m_sample_sd": null,
+      "trajectory_length_m_median": 6.264189173417506,
+      "duration_n": 1,
+      "duration_mean": 8.040583807482367,
+      "duration_sample_sd": null,
+      "duration_median": 8.040583807482367
+    },
+    {
+      "scenario": "dynobench_quad3d_window",
+      "budget_seconds": 1.0,
+      "runs": 1,
+      "successes": 1,
+      "success_rate": 1.0,
+      "cost_n": 1,
+      "cost_mean": 10.90324973833878,
+      "cost_sample_sd": null,
+      "cost_median": 10.90324973833878,
+      "trajectory_length_m_n": 1,
+      "trajectory_length_m_mean": 6.264189173417506,
+      "trajectory_length_m_sample_sd": null,
+      "trajectory_length_m_median": 6.264189173417506,
+      "duration_n": 1,
+      "duration_mean": 8.040583807482367,
+      "duration_sample_sd": null,
+      "duration_median": 8.040583807482367
+    },
+    {
+      "scenario": "dynobench_quad3d_window",
+      "budget_seconds": 5.0,
+      "runs": 1,
+      "successes": 1,
+      "success_rate": 1.0,
+      "cost_n": 1,
+      "cost_mean": 10.90324973833878,
+      "cost_sample_sd": null,
+      "cost_median": 10.90324973833878,
+      "trajectory_length_m_n": 1,
+      "trajectory_length_m_mean": 6.264189173417506,
+      "trajectory_length_m_sample_sd": null,
+      "trajectory_length_m_median": 6.264189173417506,
+      "duration_n": 1,
+      "duration_mean": 8.040583807482367,
+      "duration_sample_sd": null,
+      "duration_median": 8.040583807482367
+    },
+    {
+      "scenario": "dynobench_quad3d_window",
+      "budget_seconds": 10.0,
+      "runs": 1,
+      "successes": 1,
+      "success_rate": 1.0,
+      "cost_n": 1,
+      "cost_mean": 10.90324973833878,
+      "cost_sample_sd": null,
+      "cost_median": 10.90324973833878,
+      "trajectory_length_m_n": 1,
+      "trajectory_length_m_mean": 6.264189173417506,
+      "trajectory_length_m_sample_sd": null,
+      "trajectory_length_m_median": 6.264189173417506,
+      "duration_n": 1,
+      "duration_mean": 8.040583807482367,
+      "duration_sample_sd": null,
+      "duration_median": 8.040583807482367
+    }
+  ]
+}

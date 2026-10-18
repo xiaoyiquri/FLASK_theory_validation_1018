@@ -1,0 +1,88 @@
+{
+  "robot": "unicycle",
+  "n": 2,
+  "r": 2,
+  "robot_radius": 0.125,
+  "sphere_cell_size": 0.2,
+  "bounds": {
+    "lower": [
+      -10,
+      -10,
+      -1,
+      -1
+    ],
+    "upper": [
+      10,
+      10,
+      1,
+      1
+    ]
+  },
+  "dynobench": {
+    "environment": "dynobench_data/uni_bugtrap.yaml",
+    "model": "dynobench_data/unicycle1_v0_model.yaml",
+    "visual_model": "dynobench_original_models/unicycle1_v0.yaml",
+    "model_profile": "paper; original native model retained for visualization/comparison"
+  },
+  "lifting": {
+    "start": {
+      "speed": 0.3
+    },
+    "goal": {
+      "speed": 0.3
+    }
+  },
+  "planner": {
+    "type": "rrtconnect",
+    "seed": 41,
+    "iterations": 1000000,
+    "max_nodes": 20000,
+    "timeout": 10,
+    "range": 0.25,
+    "shortcut": true,
+    "shortcut_attempts": 100,
+    "goal_bias": 0,
+    "connect_steps": 0
+  },
+  "validation": {
+    "step": 0.01,
+    "max_samples": 20000,
+    "simd": true,
+    "continuous_sphere_collision": false,
+    "enforce_physical_continuity": true,
+    "enforce_physical_endpoints": true
+  },
+  "rho": 1,
+  "weight": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "parameter_provenance": {
+    "r": "paper practical r2; not the full-state Assumption 1 contract for quads",
+    "rho": "paper VII-A: 1",
+    "weight": "user-specified identity; private experiment R unconfirmed",
+    "sampler": "uniform flat box; public OMPL reference, private VAMP experiment unconfirmed",
+    "range_bounds_radius_resolution_budget": "explicit local settings; paper defaults unconfirmed",
+    "goal_bias_connect": "public RRTConnect: no goal bias, connect until trapped/reached or resource limit",
+    "validation": "Algorithm 3 finite grid; extra continuous sphere certificate disabled"
+  },
+  "recording": {
+    "checkpoints_seconds": [
+      0.001,
+      0.005,
+      0.01,
+      0.05,
+      0.1,
+      0.5,
+      1,
+      5,
+      10
+    ]
+  }
+}

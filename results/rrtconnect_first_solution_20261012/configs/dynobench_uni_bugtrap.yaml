@@ -1,0 +1,63 @@
+{
+  "robot": "unicycle",
+  "n": 2,
+  "r": 2,
+  "robot_radius": 0.125,
+  "sphere_cell_size": 0.2,
+  "bounds": {
+    "lower": [
+      -10,
+      -10,
+      -1,
+      -1
+    ],
+    "upper": [
+      10,
+      10,
+      1,
+      1
+    ]
+  },
+  "dynobench": {
+    "environment": "D:\\codex_talk\\project_1\\project_code\\FLASK_theory_validation\\examples\\dynobench_data\\uni_bugtrap.yaml",
+    "model": "D:\\codex_talk\\project_1\\project_code\\FLASK_theory_validation\\examples\\dynobench_data\\unicycle1_v0_model.yaml"
+  },
+  "lifting": {
+    "start": {
+      "speed": 0.3
+    },
+    "goal": {
+      "speed": 0.3
+    }
+  },
+  "planner": {
+    "type": "rrtconnect",
+    "seed": 41,
+    "iterations": 1000000,
+    "max_nodes": 20000,
+    "timeout": 10,
+    "range": 0.25,
+    "shortcut": false,
+    "shortcut_attempts": 100,
+    "unicycle_sample_speed": 0.5
+  },
+  "validation": {
+    "step": 0.01,
+    "max_samples": 20000,
+    "simd": true,
+    "continuous_sphere_collision": true,
+    "enforce_physical_continuity": true,
+    "enforce_physical_endpoints": true
+  },
+  "rho": 1,
+  "weight": [
+    [
+      10,
+      0
+    ],
+    [
+      0,
+      10
+    ]
+  ]
+}

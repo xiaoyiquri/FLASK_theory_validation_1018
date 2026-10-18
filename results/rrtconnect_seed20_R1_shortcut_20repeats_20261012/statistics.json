@@ -1,0 +1,184 @@
+[
+  {
+    "scenario": "dynobench_uni_bugtrap",
+    "runs": 20,
+    "successes": 0,
+    "first_solution_ms": {
+      "mean": null,
+      "sample_sd": null
+    },
+    "total_planning_ms": {
+      "mean": null,
+      "sample_sd": null
+    },
+    "cost": {
+      "mean": null,
+      "sample_sd": null
+    },
+    "length_m": {
+      "mean": null,
+      "sample_sd": null
+    },
+    "all_run_planning_ms": {
+      "mean": 10000.089955,
+      "sample_sd": 0.32275577776232217
+    },
+    "failed_planning_ms": {
+      "mean": 10000.089955,
+      "sample_sd": 0.32275577776232217
+    },
+    "failure_reasons": {
+      "timeout": 20
+    }
+  },
+  {
+    "scenario": "dynobench_uni_wall",
+    "runs": 20,
+    "successes": 20,
+    "first_solution_ms": {
+      "mean": 1906.383485,
+      "sample_sd": 137.9419030142773
+    },
+    "total_planning_ms": {
+      "mean": 1923.11289,
+      "sample_sd": 140.1489587154208
+    },
+    "cost": {
+      "mean": 48.11708287534471,
+      "sample_sd": 0.0
+    },
+    "length_m": {
+      "mean": 25.515813545920576,
+      "sample_sd": 0.0
+    },
+    "all_run_planning_ms": {
+      "mean": 1923.11289,
+      "sample_sd": 140.1489587154208
+    },
+    "failed_planning_ms": {
+      "mean": null,
+      "sample_sd": null
+    },
+    "failure_reasons": {}
+  },
+  {
+    "scenario": "dynobench_quad2d_bugtrap",
+    "runs": 20,
+    "successes": 20,
+    "first_solution_ms": {
+      "mean": 26.547525,
+      "sample_sd": 4.661057016315302
+    },
+    "total_planning_ms": {
+      "mean": 36.022240000000004,
+      "sample_sd": 5.819751086321205
+    },
+    "cost": {
+      "mean": 22.8093430673962,
+      "sample_sd": 0.0
+    },
+    "length_m": {
+      "mean": 14.099434131565753,
+      "sample_sd": 0.0
+    },
+    "all_run_planning_ms": {
+      "mean": 36.022240000000004,
+      "sample_sd": 5.819751086321205
+    },
+    "failed_planning_ms": {
+      "mean": null,
+      "sample_sd": null
+    },
+    "failure_reasons": {}
+  },
+  {
+    "scenario": "dynobench_quad2d_hole",
+    "runs": 20,
+    "successes": 20,
+    "first_solution_ms": {
+      "mean": 5.43084,
+      "sample_sd": 1.0282030847935382
+    },
+    "total_planning_ms": {
+      "mean": 7.15088,
+      "sample_sd": 1.1847577472120399
+    },
+    "cost": {
+      "mean": 11.039676973140892,
+      "sample_sd": 0.0
+    },
+    "length_m": {
+      "mean": 5.646633059950046,
+      "sample_sd": 0.0
+    },
+    "all_run_planning_ms": {
+      "mean": 7.15088,
+      "sample_sd": 1.1847577472120399
+    },
+    "failed_planning_ms": {
+      "mean": null,
+      "sample_sd": null
+    },
+    "failure_reasons": {}
+  },
+  {
+    "scenario": "dynobench_quad3d_block",
+    "runs": 20,
+    "successes": 20,
+    "first_solution_ms": {
+      "mean": 9.29508,
+      "sample_sd": 1.79797810671057
+    },
+    "total_planning_ms": {
+      "mean": 14.583275,
+      "sample_sd": 2.6294169715727356
+    },
+    "cost": {
+      "mean": 12.71111055955749,
+      "sample_sd": 0.0
+    },
+    "length_m": {
+      "mean": 9.278102559532424,
+      "sample_sd": 0.0
+    },
+    "all_run_planning_ms": {
+      "mean": 14.583275,
+      "sample_sd": 2.6294169715727356
+    },
+    "failed_planning_ms": {
+      "mean": null,
+      "sample_sd": null
+    },
+    "failure_reasons": {}
+  },
+  {
+    "scenario": "dynobench_quad3d_window",
+    "runs": 20,
+    "successes": 20,
+    "first_solution_ms": {
+      "mean": 36.25096,
+      "sample_sd": 5.7242673165172295
+    },
+    "total_planning_ms": {
+      "mean": 40.51245,
+      "sample_sd": 6.154407401161682
+    },
+    "cost": {
+      "mean": 13.030772389766106,
+      "sample_sd": 0.0
+    },
+    "length_m": {
+      "mean": 6.487181749056805,
+      "sample_sd": 0.0
+    },
+    "all_run_planning_ms": {
+      "mean": 40.51245,
+      "sample_sd": 6.154407401161682
+    },
+    "failed_planning_ms": {
+      "mean": null,
+      "sample_sd": null
+    },
+    "failure_reasons": {}
+  }
+]

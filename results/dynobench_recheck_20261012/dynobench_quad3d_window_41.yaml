@@ -1,0 +1,39 @@
+success: false
+reason: iteration_limit
+source: D:\codex_talk\project_1\project_code\FLASK_theory_validation\examples\dynobench_quad3d_window.yaml
+input_configuration: {robot: quad3d, n: 4, r: 4, robot_radius: 0.25, sphere_cell_size: 0.2, bounds: {lower: [-10, -10, -10, 0, -4, -4, -4, 0, -2, -2, -2, 0, -2, -2, -2, 0], upper: [10, 10, 10, 0, 4, 4, 4, 0, 2, 2, 2, 0, 2, 2, 2, 0]}, dynobench: {environment: dynobench_data/quad3d_window.yaml, model: dynobench_data/quad3d_v0_model.yaml}, lifting: {start: {acceleration: [0, 0, 0], jerk: [0, 0, 0], yaw_rate: 0, yaw_acceleration: 0, yaw_jerk: 0}, goal: {acceleration: [0, 0, 0], jerk: [0, 0, 0], yaw_rate: 0, yaw_acceleration: 0, yaw_jerk: 0}}, planner: {type: rrtconnect, seed: 41, iterations: 10000, max_nodes: 10000, timeout: 3, range: 1, shortcut: true}, validation: {step: 0.02, max_samples: 20000, simd: true, continuous_sphere_collision: true, enforce_physical_continuity: true}, dynobench_environment_snapshot: {name: quadrotor_v0-window, environment: {min: [1, 0.5, 1], max: [5, 5.5, 3], obstacles: [{type: box, center: [4, 3, 2], size: [2, .3, 2]}, {type: box, center: [1.1, 3, 1.9], size: [.2, .3, 1]}, {type: box, center: [2, 3, 2.7], size: [2, .3, .6]}, {type: box, center: [2, 3, 1.2], size: [2, .3, .4]}]}, robots: [{type: quad3d_v0, start: [4., 1., 2., 0, 0, 0, 1, 0, 0, 0, 0, 0, 0], goal: [4., 5., 2., 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]}]}, dynobench_model_snapshot: {distance_weights: [1., .5, .1, .05], max_vel: 4, max_angular_vel: 8, max_acc: 25, max_angular_acc: 20, motor_control: false, m: 1.0, max_f: 1.5, arm_length: 0.046, t2t: 0.006, J_v: [0.1, 0.1, 0.2], dt: .01, size: [.25], dynamics: quad3d, u_lb: [0.0, -0.1, -0.1, -0.1], u_ub: [1.5, 0.1, 0.1, 0.1]}}
+robot: quad3d
+planner: rrtconnect
+seed: 41
+n: 4
+r: 4
+rho: 1
+asymptotic_optimality_verified: false
+continuous_control_certificate: false
+continuous_sphere_check: true
+physical_continuity_enforced: true
+reduced_order_result: false
+avx2_available: true
+sampling_step: 0.02
+goal_region_radius: 0
+iterations: 10000
+nodes: 42
+bvp_queries: 2767
+shortcuts: 0
+planning_seconds: 0.17838589999999999
+cost: ~
+cost_before_shortcut: ~
+duration: ~
+flat_start: [4, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+flat_goal: [4, 5, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+segments:
+  []
+samples:
+  []
+validation:
+  edges: 2767
+  samples: 23271
+  batches: 1871
+  collision_rejections: 95
+  physical_rejections: 2632
+  certificate_rejections: 0

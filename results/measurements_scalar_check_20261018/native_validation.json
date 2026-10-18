@@ -1,0 +1,18 @@
+[
+  {
+    "scenario": "dynobench_quad3d_window",
+    "seed": 20,
+    "repeat": 1,
+    "stage": "first",
+    "status": "not_requested",
+    "verified": false
+  },
+  {
+    "scenario": "dynobench_quad3d_window",
+    "seed": 20,
+    "repeat": 1,
+    "stage": "final",
+    "status": "not_requested",
+    "verified": false
+  }
+]

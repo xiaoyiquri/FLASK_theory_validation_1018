@@ -1,0 +1,46 @@
+Test project D:/codex_talk/project_1/tmp/build_flask_runtime
+      Start  1: controllability
+ 1/19 Test  #1: controllability ..................   Passed    0.09 sec
+      Start  2: gramian_scaling
+ 2/19 Test  #2: gramian_scaling ..................   Passed    0.04 sec
+      Start  3: theory_assumptions
+ 3/19 Test  #3: theory_assumptions ...............   Passed    0.02 sec
+      Start  4: controllability_custom
+ 4/19 Test  #4: controllability_custom ...........   Passed    0.05 sec
+      Start  5: gramian_scaling_custom
+ 5/19 Test  #5: gramian_scaling_custom ...........   Passed    0.04 sec
+      Start  6: bvp
+ 6/19 Test  #6: bvp ..............................   Passed    0.04 sec
+      Start  7: planner
+ 7/19 Test  #7: planner ..........................   Passed    0.03 sec
+      Start  8: validation
+ 8/19 Test  #8: validation .......................   Passed    0.03 sec
+      Start  9: models
+ 9/19 Test  #9: models ...........................   Passed    0.03 sec
+      Start 10: io
+10/19 Test #10: io ...............................   Passed    0.04 sec
+      Start 11: cli_integrator
+11/19 Test #11: cli_integrator ...................   Passed    0.04 sec
+      Start 12: cli_unicycle
+12/19 Test #12: cli_unicycle .....................   Passed    0.04 sec
+      Start 13: cli_quad3d
+13/19 Test #13: cli_quad3d .......................   Passed    0.06 sec
+      Start 14: dynobench_uni_bugtrap
+14/19 Test #14: dynobench_uni_bugtrap ............   Passed    0.15 sec
+      Start 15: dynobench_uni_wall
+15/19 Test #15: dynobench_uni_wall ...............   Passed    0.07 sec
+      Start 16: dynobench_quad2d_bugtrap
+16/19 Test #16: dynobench_quad2d_bugtrap .........   Passed    0.09 sec
+      Start 17: dynobench_quad2d_hole
+17/19 Test #17: dynobench_quad2d_hole ............   Passed    0.09 sec
+      Start 18: dynobench_quad3d_block
+18/19 Test #18: dynobench_quad3d_block ...........   Passed    0.16 sec
+      Start 19: dynobench_quad3d_window
+19/19 Test #19: dynobench_quad3d_window ..........   Passed    0.19 sec
+
+100% tests passed out of 19
+
+Label Time Summary:
+dynobench_r2    =   0.74 sec*proc (6 tests)
+
+Total Test time (real) =   1.35 sec

@@ -1,0 +1,39 @@
+success: false
+reason: iteration_limit
+source: D:\codex_talk\project_1\project_code\FLASK_theory_validation\examples\dynobench_uni_wall.yaml
+input_configuration: {robot: unicycle, n: 2, r: 2, robot_radius: 0.125, sphere_cell_size: 0.2, bounds: {lower: [-10, -10, -1, -1], upper: [10, 10, 1, 1]}, dynobench: {environment: dynobench_data/uni_wall.yaml, model: dynobench_data/unicycle1_v2_model.yaml}, lifting: {start: {speed: 0.3}, goal: {speed: 0.3}}, planner: {type: rrtconnect, seed: 41, iterations: 10000, max_nodes: 10000, timeout: 3, range: 1, shortcut: true}, validation: {step: 0.02, max_samples: 20000, simd: true, continuous_sphere_collision: true, enforce_physical_continuity: true}, dynobench_environment_snapshot: {name: wall, environment: {min: [0.0, 0.0], max: [5.0, 6.0], obstacles: [{type: box, center: [2.5, 2.5], size: [0.2, 1.4]}]}, robots: [{type: unicycle1_v2, start: [1.5, 2.5, 0], goal: [4, 2.5, 0]}]}, dynobench_model_snapshot: {dynamics: unicycle1, max_vel: 1.0, min_vel: 0.25, max_angular_vel: 1.5, min_angular_vel: -1.5, size: [.5, .25], distance_weights: [1, .5], shape: box, dt: .1}}
+robot: unicycle
+planner: rrtconnect
+seed: 41
+n: 2
+r: 2
+rho: 1
+asymptotic_optimality_verified: false
+continuous_control_certificate: false
+continuous_sphere_check: true
+physical_continuity_enforced: true
+reduced_order_result: false
+avx2_available: true
+sampling_step: 0.02
+goal_region_radius: 0
+iterations: 10000
+nodes: 67
+bvp_queries: 7818
+shortcuts: 0
+planning_seconds: 0.058359599999999998
+cost: ~
+cost_before_shortcut: ~
+duration: ~
+flat_start: [1.5, 2.5, 0.29999999999999999, 0]
+flat_goal: [4, 2.5, 0.29999999999999999, 0]
+segments:
+  []
+samples:
+  []
+validation:
+  edges: 7816
+  samples: 23411
+  batches: 1299
+  collision_rejections: 652
+  physical_rejections: 7099
+  certificate_rejections: 0

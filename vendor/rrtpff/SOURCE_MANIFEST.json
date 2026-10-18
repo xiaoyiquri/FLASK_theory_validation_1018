@@ -1,0 +1,22 @@
+{
+  "source": "workspace RRTstarDFPFF_paper_r2_float32_strict_20261010",
+  "snapshot_date": "2026-10-12",
+  "sha256": {
+    "common/boundary_diagnostics.h": "131b28aaa175f070d6b9a4c7f7333f476eef78943db4313ffb49a96f25dd78ec",
+    "common/flat_control.h": "64e6b2faa7c33969c1c60ea4d868addc94c195c5a74def0916f15939c360510e",
+    "common/flat_state.h": "898027fb1927acda51c827a9ab9cde52be1af5a7411f034c283babafc688a1e7",
+    "common/flat_trajectory.h": "1ac9b85db43017d152595ff441b2b80740099782a6562f3a51664468a76833f2",
+    "common/math_utils.h": "5f23bbf1f44bc840632878aa3da638c2739ae6f1fdac3b1ef4959274e26cfe35",
+    "common/physical_trajectory.h": "7a70d45dfa4ad4b66a6957b5a9aae9682608a5fd9ebf1d70276abae933837ce0",
+    "common/types.h": "27827f2ff378ab45ebd6c18a3f0eea5e1a74dfd53fe88eaf590e946b06c17620",
+    "df/df_types.h": "424a43c16b5645c186b144d6d8574b5cf7e0d60068831926e331346edaf04933",
+    "df/differential_flatness.h": "2c14f1b0f1ea3fb8e7c993d880387e640088e1cf14cf4ab79ee89d9e006f0822",
+    "df/paper_r2_df.h": "e5d754ccdd3c5d2747958097ad4080b93b59ca41aff909c0882c923b4bd744da",
+    "df/quad2d_df.h": "d76aac43117df81c4a8caa0e260850261a430b4c8b0ef156388fe5e15bc243ed",
+    "df/quad3d_df.h": "1d8401934e19ac09d2cf3c889d566fc818924eae37f99e55489cb3ae011e16b7",
+    "df/unicycle_df.h": "c5b764ef68fe75fd7f474caebe709b7c733ab4ebd026a8a523bd4c252c7cf34b",
+    "pff/pff.h": "1009d3a7dbfc8fc835c139fd1a8fc3f0a54edecef0814810b9291d63308a6c2a",
+    "pff/pff_cost.h": "7fdb5396bdf0736b55079b8aed473febe9e179cb4365e511f4cecd50b5dde2e3",
+    "pff/pff_integrator.h": "1a505cd5b2eedbc25aec18056ad0a0b6f73de61cf0fb42a3030ca8d5b9983de5"
+  }
+}

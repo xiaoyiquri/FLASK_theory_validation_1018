@@ -1,0 +1,11 @@
+{
+  "seed": 27,
+  "reason": "Only successful Bugtrap seed in all-20 experiment; does not replace seed-20 overview",
+  "inputs": {
+    "configurations/dynobench_uni_bugtrap.yaml": "3c951b0d7e5cbefcd6d3d7d8f257cec2f0ab2821f3bbdaa05200d65e665ffa55",
+    "dynobench_uni_bugtrap_27.yaml": "5d6bd9d027dbf77a0ea9b6007926cb172f478aff43c0495fa588d14b813f0827",
+    "first_solution/dynobench_uni_bugtrap_27.yaml": "248fa921ddac042a40fb998e09eb868afbb21202fc4015008759f8bb2b730afd",
+    "final_solution/dynobench_uni_bugtrap_27.yaml": "ff0f39572bfac3d176e0fd8c01e29b1c82c0ccadbff297d412c557dff22daa11"
+  },
+  "plot_source_sha256": "f3188073c3c35b5e95daba15ee2e0119bc6c3ebb5b99f3ae5c6bd18fd6a813b2"
+}

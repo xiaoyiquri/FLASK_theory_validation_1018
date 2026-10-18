@@ -1,0 +1,14 @@
+环境,首解时间（ms）,首解轨迹长度（m）,首解 cost
+Unicycle Bugtrap,74.475,13.997,52.952
+Unicycle Wall,27.064,6.72,23.778
+Quad2D Bugtrap,19.828,15.493,31.329
+Quad2D Hole,8.899,14.339,30.707
+Quad3D Block,19.625,11.304,18.068
+Quad3D Window,70.186,19.01,50.131
+环境,平均首解时间（ms）,平均长度（m）,平均 cost
+Unicycle Bugtrap,—,—,—
+Unicycle Wall,1906.383,25.516,48.117
+Quad2D Bugtrap,26.548,14.099,22.809
+Quad2D Hole,5.431,5.647,11.04
+Quad3D Block,9.295,9.278,12.711
+Quad3D Window,36.251,6.487,13.031

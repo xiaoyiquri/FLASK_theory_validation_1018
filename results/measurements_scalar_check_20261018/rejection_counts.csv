@@ -1,0 +1,17 @@
+scenario,seed,repeat,status,termination_reason,reason,count,interval_rejections
+dynobench_quad3d_window,20,1,SUCCESS,connected,numeric,0,0
+dynobench_quad3d_window,20,1,SUCCESS,connected,branch,0,0
+dynobench_quad3d_window,20,1,SUCCESS,connected,speed_zero,0,0
+dynobench_quad3d_window,20,1,SUCCESS,connected,speed_min,0,0
+dynobench_quad3d_window,20,1,SUCCESS,connected,speed_max,0,0
+dynobench_quad3d_window,20,1,SUCCESS,connected,omega,0,0
+dynobench_quad3d_window,20,1,SUCCESS,connected,acceleration,0,0
+dynobench_quad3d_window,20,1,SUCCESS,connected,jerk,0,0
+dynobench_quad3d_window,20,1,SUCCESS,connected,thrust,0,0
+dynobench_quad3d_window,20,1,SUCCESS,connected,motor,0,0
+dynobench_quad3d_window,20,1,SUCCESS,connected,angular_acceleration,0,0
+dynobench_quad3d_window,20,1,SUCCESS,connected,singularity,0,0
+dynobench_quad3d_window,20,1,SUCCESS,connected,sample_limit,0,0
+dynobench_quad3d_window,20,1,SUCCESS,connected,Collision,115,0
+dynobench_quad3d_window,20,1,SUCCESS,connected,FlatBounds,93,0
+dynobench_quad3d_window,20,1,SUCCESS,connected,SampleBudget,0,0

@@ -1,0 +1,39 @@
+success: false
+reason: iteration_limit
+source: D:\codex_talk\project_1\project_code\FLASK_theory_validation\examples\dynobench_quad2d_bugtrap.yaml
+input_configuration: {robot: quad2d, n: 2, r: 4, robot_radius: 0.1, sphere_cell_size: 0.2, bounds: {lower: [-10, -10, -4, -4, -2, -2, -2, -2], upper: [10, 10, 4, 4, 2, 2, 2, 2]}, dynobench: {environment: dynobench_data/quad2d_bugtrap.yaml, model: dynobench_data/quad2d_v0_model.yaml}, lifting: {start: {acceleration: [0, 0], jerk: [0, 0]}, goal: {acceleration: [0, 0], jerk: [0, 0]}}, planner: {type: rrtconnect, seed: 41, iterations: 10000, max_nodes: 10000, timeout: 3, range: 1, shortcut: true}, validation: {step: 0.02, max_samples: 20000, simd: true, continuous_sphere_collision: true, enforce_physical_continuity: true}, dynobench_environment_snapshot: {name: quad2d_v0-bugtrap, environment: {min: [0.0, 0.0], max: [6, 6], obstacles: [{type: box, center: [4.5, 3], size: [0.2, 3.2]}, {type: box, center: [3, 1.5], size: [3.2, 0.2]}, {type: box, center: [3, 4.5], size: [3.2, 0.2]}, {type: box, center: [1.5, 4.05], size: [0.2, 1.1]}, {type: box, center: [1.5, 1.95], size: [0.2, 1.1]}]}, robots: [{type: quad2d_v0, start: [3.8, 3, 0, 0, 0, 0], goal: [5.2, 3, 0, 0, 0, 0]}]}, dynobench_model_snapshot: {distance_weights: [1., .5, .2, .2], max_f: 1.3, max_vel: 4, max_angular_vel: 8, max_acc: 20, max_angular_acc: 20, dt: 0.01, m: 0.034, I: 1e-4, l: 0.1, size: [.6, .2], shape: box, dynamics: quad2d, drag_against_vel: false}}
+robot: quad2d
+planner: rrtconnect
+seed: 41
+n: 2
+r: 4
+rho: 1
+asymptotic_optimality_verified: false
+continuous_control_certificate: false
+continuous_sphere_check: true
+physical_continuity_enforced: true
+reduced_order_result: false
+avx2_available: true
+sampling_step: 0.02
+goal_region_radius: 0
+iterations: 10000
+nodes: 26
+bvp_queries: 7537
+shortcuts: 0
+planning_seconds: 0.1330643
+cost: ~
+cost_before_shortcut: ~
+duration: ~
+flat_start: [3.7999999999999998, 3, 0, 0, 0, 0, 0, 0]
+flat_goal: [5.2000000000000002, 3, 0, 0, 0, 0, 0, 0]
+segments:
+  []
+samples:
+  []
+validation:
+  edges: 5371
+  samples: 30450
+  batches: 2148
+  collision_rejections: 718
+  physical_rejections: 4629
+  certificate_rejections: 0

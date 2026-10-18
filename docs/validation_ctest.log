@@ -1,0 +1,135 @@
+Start testing: Oct 11 23:16 中国标准时间
+----------------------------------------------------------
+1/5 Testing: controllability
+1/5 Test: controllability
+Command: "D:/codex_talk/project_1/tmp/build_flask_theory/test_controllability.exe"
+Directory: D:/codex_talk/project_1/tmp/build_flask_theory
+"controllability" start time: Oct 11 23:16 中国标准时间
+Output:
+----------------------------------------------------------
+48 runtime pairs + 9 existing template kernels; all indices equal r
+PASS
+<end of output>
+Test time =   7.57 sec
+----------------------------------------------------------
+Test Passed.
+"controllability" end time: Oct 11 23:16 中国标准时间
+"controllability" time elapsed: 00:00:07
+----------------------------------------------------------
+
+2/5 Testing: gramian_scaling
+2/5 Test: gramian_scaling
+Command: "D:/codex_talk/project_1/tmp/build_flask_theory/test_gramian_scaling.exe"
+Directory: D:/codex_talk/project_1/tmp/build_flask_theory
+"gramian_scaling" start time: Oct 11 23:16 中国标准时间
+Output:
+----------------------------------------------------------
+n=1 r=1 exponent=1 slope=1 log(C)=0.0861776962411
+n=1 r=2 exponent=4 slope=4 log(C)=-2.31255125731
+n=1 r=3 exponent=9 slope=9 log(C)=-8.80562477307
+n=1 r=4 exponent=16 slope=16 log(C)=-20.2403407115
+n=1 r=5 exponent=25 slope=25 log(C)=-37.2044857373
+n=1 r=6 exponent=36 slope=36.0000000001 log(C)=-60.1500449745
+n=2 r=1 exponent=2 slope=2 log(C)=0.0953101798043
+n=2 r=2 exponent=8 slope=8 log(C)=-4.77919293997
+n=2 r=3 exponent=18 slope=18 log(C)=-17.8423851842
+n=2 r=4 exponent=32 slope=32 log(C)=-40.7888622736
+n=2 r=5 exponent=50 slope=50 log(C)=-74.7941975381
+n=2 r=6 exponent=72 slope=72 log(C)=-120.762361225
+n=3 r=1 exponent=3 slope=3 log(C)=0.131028262406
+n=3 r=2 exponent=12 slope=12 log(C)=-7.19266342455
+n=3 r=3 exponent=27 slope=27 log(C)=-26.7993887982
+n=3 r=4 exponent=48 slope=48 log(C)=-61.2310414396
+n=3 r=5 exponent=75 slope=75 log(C)=-112.250981344
+n=3 r=6 exponent=108 slope=108 log(C)=-181.215163881
+n=4 r=1 exponent=4 slope=4 log(C)=0.167395906577
+n=4 r=2 exponent=16 slope=16 log(C)=-9.604834786
+n=4 r=3 exponent=36 slope=36 log(C)=-35.7544437275
+n=4 r=4 exponent=64 slope=64 log(C)=-81.6706223594
+n=4 r=5 exponent=100 slope=100 log(C)=-149.704517341
+n=4 r=6 exponent=144 slope=144 log(C)=-241.664069168
+n=5 r=1 exponent=5 slope=5 log(C)=0.202940843997
+n=5 r=2 exponent=20 slope=20 log(C)=-12.0186515609
+n=5 r=3 exponent=45 slope=45 log(C)=-44.711966777
+n=5 r=4 exponent=80 slope=80 log(C)=-102.113494106
+n=5 r=5 exponent=125 slope=125 log(C)=-187.162166873
+n=5 r=6 exponent=180 slope=180 log(C)=-302.117910696
+n=6 r=1 exponent=6 slope=6 log(C)=0.237440856015
+n=6 r=2 exponent=24 slope=24 log(C)=-14.4345581867
+n=6 r=3 exponent=54 slope=54 log(C)=-53.6726246027
+n=6 r=4 exponent=96 slope=96 log(C)=-122.560545554
+n=6 r=5 exponent=150 slope=150 log(C)=-224.625041031
+n=6 r=6 exponent=216 slope=216 log(C)=-362.578021776
+n=7 r=1 exponent=7 slope=7 log(C)=0.270874954135
+n=7 r=2 exponent=28 slope=28 log(C)=-16.8525966402
+n=7 r=3 exponent=63 slope=63 log(C)=-62.6364801702
+n=7 r=4 exponent=112 slope=112 log(C)=-143.011860658
+n=7 r=5 exponent=175 slope=175 log(C)=-262.093244759
+n=7 r=6 exponent=252 slope=252 log(C)=-423.044528339
+n=8 r=1 exponent=8 slope=8 log(C)=0.303274167212
+n=8 r=2 exponent=32 slope=32 log(C)=-19.2727048639
+n=8 r=3 exponent=72 slope=72 log(C)=-71.6034403928
+n=8 r=4 exponent=128 slope=128 log(C)=-163.467315302
+n=8 r=5 exponent=200 slope=200 log(C)=-299.566622912
+n=8 r=6 exponent=288 slope=288 log(C)=-483.517244212
+PASS
+<end of output>
+Test time =   1.49 sec
+----------------------------------------------------------
+Test Passed.
+"gramian_scaling" end time: Oct 11 23:17 中国标准时间
+"gramian_scaling" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/5 Testing: theory_assumptions
+3/5 Test: theory_assumptions
+Command: "D:/codex_talk/project_1/tmp/build_flask_theory/test_theory_assumptions.exe"
+Directory: D:/codex_talk/project_1/tmp/build_flask_theory
+"theory_assumptions" start time: Oct 11 23:17 中国标准时间
+Output:
+----------------------------------------------------------
+Nonzero branches, zero-speed limits, reduced jets, snap constraints, singular frames, junctions, symbolic scales, thin obstacles checked
+PASS
+<end of output>
+Test time =   1.01 sec
+----------------------------------------------------------
+Test Passed.
+"theory_assumptions" end time: Oct 11 23:17 中国标准时间
+"theory_assumptions" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/5 Testing: controllability_custom
+4/5 Test: controllability_custom
+Command: "D:/codex_talk/project_1/tmp/build_flask_theory/test_controllability.exe" "5" "7"
+Directory: D:/codex_talk/project_1/tmp/build_flask_theory
+"controllability_custom" start time: Oct 11 23:17 中国标准时间
+Output:
+----------------------------------------------------------
+runtime n=5 r=7 rank=35
+PASS
+<end of output>
+Test time =   0.34 sec
+----------------------------------------------------------
+Test Passed.
+"controllability_custom" end time: Oct 11 23:17 中国标准时间
+"controllability_custom" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: gramian_scaling_custom
+5/5 Test: gramian_scaling_custom
+Command: "D:/codex_talk/project_1/tmp/build_flask_theory/test_gramian_scaling.exe" "5" "7"
+Directory: D:/codex_talk/project_1/tmp/build_flask_theory
+"gramian_scaling_custom" start time: Oct 11 23:17 中国标准时间
+Output:
+----------------------------------------------------------
+n=5 r=7 exponent=245 slope=245.000000004 log(C)=-448.819349478
+PASS
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"gramian_scaling_custom" end time: Oct 11 23:17 中国标准时间
+"gramian_scaling_custom" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 11 23:17 中国标准时间

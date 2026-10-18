@@ -1,0 +1,7 @@
+scenario,seed,status,reason,exit_code,nodes,cost,planning_seconds,planning_ms,search_seconds,trajectory_length_m,process_seconds,trajectory_file
+dynobench_uni_bugtrap,41,FAILED,timeout,2,1158,,10.0000021,10000.0021,10.0000021,,10.777436200005468,results\rrtconnect_target_policy_20261012\dynobench_uni_bugtrap_41.yaml
+dynobench_uni_wall,41,FAILED,timeout,2,2348,,10.0000125,10000.0125,10.0000125,,10.071134199999506,results\rrtconnect_target_policy_20261012\dynobench_uni_wall_41.yaml
+dynobench_quad2d_bugtrap,41,SUCCESS,connected,0,16,27.16680523551371,0.011946,11.946,0.007515,13.531532136778589,0.21287410001968965,results\rrtconnect_target_policy_20261012\dynobench_quad2d_bugtrap_41.yaml
+dynobench_quad2d_hole,41,SUCCESS,connected,0,13,21.653496017647072,0.0046335,4.6335,0.0037461,9.041148644123915,0.12283579999348149,results\rrtconnect_target_policy_20261012\dynobench_quad2d_hole_41.yaml
+dynobench_quad3d_block,41,SUCCESS,connected,0,11,28.669498953957397,0.0465619,46.5619,0.0201273,16.503602358703297,0.27239599998574704,results\rrtconnect_target_policy_20261012\dynobench_quad3d_block_41.yaml
+dynobench_quad3d_window,41,SUCCESS,connected,0,31,21.099219999987028,0.0284873,28.4873,0.0201231,8.792142884054098,0.20158590000937693,results\rrtconnect_target_policy_20261012\dynobench_quad3d_window_41.yaml

@@ -1,0 +1,47 @@
+success: false
+reason: timeout
+source: D:\codex_talk\project_1\project_code\FLASK_theory_validation\results/rrtconnect_range_review_20261012/range_01.yaml
+input_configuration: {robot: unicycle, n: 2, r: 2, robot_radius: 0.125, sphere_cell_size: 0.2, bounds: {lower: [-10, -10, -1, -1], upper: [10, 10, 1, 1]}, dynobench: {environment: ../../examples/dynobench_data/uni_bugtrap.yaml, model: ../../examples/dynobench_data/unicycle1_v0_model.yaml}, lifting: {start: {speed: 0.3}, goal: {speed: 0.3}}, planner: {type: rrtconnect, seed: 41, iterations: 1000000, max_nodes: 20000, timeout: 10, range: 0.1, shortcut: true, shortcut_attempts: 100}, validation: {step: 0.01, max_samples: 20000, simd: true, continuous_sphere_collision: true, enforce_physical_continuity: true, enforce_physical_endpoints: true}, rho: 1, dynobench_environment_snapshot: {name: unicycle1_v0-bugtrap, environment: {min: [0.0, 0.0], max: [6, 6], obstacles: [{type: box, center: [4.5, 3], size: [0.2, 3.2]}, {type: box, center: [3, 1.5], size: [3.2, 0.2]}, {type: box, center: [3, 4.5], size: [3.2, 0.2]}, {type: box, center: [1.5, 4.05], size: [0.2, 1.1]}, {type: box, center: [1.5, 1.95], size: [0.2, 1.1]}]}, robots: [{type: unicycle1_v0, start: [3.8, 3, 0], goal: [5.2, 3, 0]}]}, dynobench_model_snapshot: {dynamics: unicycle1, max_vel: 1.0, min_vel: -0.5, max_angular_vel: 1.5, min_angular_vel: -1.5, size: [.5, .25], distance_weights: [1, .5], shape: box, dt: .1}}
+robot: unicycle
+planner: rrtconnect
+seed: 41
+n: 2
+r: 2
+rho: 1
+asymptotic_optimality_verified: false
+continuous_control_certificate: false
+continuous_sphere_check: true
+physical_continuity_enforced: true
+physical_endpoints_enforced: true
+physical_start_error: 0
+physical_goal_error: 0
+max_physical_junction_error: 0
+dynobench_checker_verified: false
+reduced_order_result: false
+avx2_available: true
+sampling_step: 0.01
+goal_region_radius: 0
+iterations: 839602
+nodes: 2272
+bvp_queries: 939744
+shortcuts: 0
+planning_seconds: 10.0000053
+search_seconds: 10.0000053
+postprocessing_seconds: 0
+trajectory_length_m: ~
+cost: ~
+cost_before_shortcut: ~
+duration: ~
+flat_start: [3.7999999999999998, 3, 0.29999999999999999, 0]
+flat_goal: [5.2000000000000002, 3, 0.29999999999999999, 0]
+segments:
+  []
+samples:
+  []
+validation:
+  edges: 445882
+  samples: 1559263
+  batches: 81609
+  collision_rejections: 18074
+  physical_rejections: 425538
+  certificate_rejections: 0

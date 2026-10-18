@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/quimortiz/dynobench",
+  "role": "Unmodified original model files for visualization and native-model comparison; planning uses paper profiles.",
+  "files": {
+    "unicycle1_v0.yaml": {
+      "source": "models/unicycle1_v0.yaml",
+      "sha256": "21430f85b233d420227116b858f27d358606b1dc4b17eecba0effaa45f1bf647"
+    },
+    "unicycle1_v2.yaml": {
+      "source": "models/unicycle1_v2.yaml",
+      "sha256": "2d02830a1112b45a96cc7bfb0308c5e0561109e042a9dbd0187abbcaf36468b4"
+    },
+    "quad2d_v0.yaml": {
+      "source": "models/quad2d_v0.yaml",
+      "sha256": "36cc5df637fd7197e20e129cf0b3810430db058eb336bbc0ac67f498750e960a"
+    },
+    "quad3d_v0.yaml": {
+      "source": "models/quad3d_v0.yaml",
+      "sha256": "df81a0478488ed074f30313d000701e111f77db70ee86149094086e1105dbaa4"
+    }
+  }
+}

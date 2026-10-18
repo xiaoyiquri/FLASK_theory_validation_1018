@@ -1,0 +1,14 @@
+robot: integrator
+n: 2
+r: 2
+robot_radius: 0.05
+start: [-1, 0, 0.1, 0]
+goal: [1, 0, 0.1, 0]
+bounds:
+  lower: [-2, -2, -1, -1]
+  upper: [2, 2, 1, 1]
+environment:
+  obstacles:
+    - {type: sphere, center: [0, 0], radius: 0.3}
+planner: {type: rrtconnect, seed: 41, iterations: 3000, timeout: 8, range: 1, shortcut: true}
+validation: {step: 0.04, simd: true, continuous_sphere_collision: true}

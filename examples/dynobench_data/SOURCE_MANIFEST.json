@@ -1,0 +1,42 @@
+{
+  "uni_bugtrap.yaml": {
+    "source": "project_code\\dynobench-main\\dynobench-main\\envs\\unicycle1_v0\\bugtrap_0.yaml",
+    "sha256": "d4fbebc3320ef91c60edabea30e419e10652e01820b7e576deb947337f5cfb50"
+  },
+  "uni_wall.yaml": {
+    "source": "project_code\\dynobench-main\\dynobench-main\\envs\\unicycle1_v2\\wall_0.yaml",
+    "sha256": "2a60709641697f85d2c852795c9bbfab926cbff355c4745ed59ec7cc92bc7b01"
+  },
+  "quad2d_bugtrap.yaml": {
+    "source": "project_code\\dynobench-main\\dynobench-main\\envs\\quad2d_v0\\quad_bugtrap.yaml",
+    "sha256": "1499a95907170ee247b676041cc2987dae12608790837f1f22a7ab1093a670af"
+  },
+  "quad2d_hole.yaml": {
+    "source": "project_code\\dynobench-main\\dynobench-main\\envs\\quad2d_v0\\fall_through.yaml",
+    "sha256": "997020824567e902fd65e73fece67d3161aee25b96c97d4d1b4ef3b61c6e1970"
+  },
+  "quad3d_window.yaml": {
+    "source": "project_code\\dynobench-main\\dynobench-main\\envs\\quadrotor_v0\\window.yaml",
+    "sha256": "14803e6106dc3cbc4c601ec087931a50a35983d837c78e472498783ef71087c3"
+  },
+  "quad3d_block.yaml": {
+    "source": "project_code\\dynobench-main\\dynobench-main\\envs\\quadrotor_v0\\quad_one_obs.yaml",
+    "sha256": "9ee11b2922699c0cd2751f04966415ad32d4008e980db823987c56b52b590353"
+  },
+  "unicycle1_v0_model.yaml": {
+    "source": "project_code\\RRTstarDFPFF_paper_r2_float32_strict_20261010\\benchmark\\models\\paper\\unicycle1_v0.yaml",
+    "sha256": "a7a3e067abb46947ee355f5c79186e13e81b6c81815306123cd983f2d81493ed"
+  },
+  "unicycle1_v2_model.yaml": {
+    "source": "project_code\\RRTstarDFPFF_paper_r2_float32_strict_20261010\\benchmark\\models\\paper\\unicycle1_v2.yaml",
+    "sha256": "23c90ac4d5eb3782eaab315988140f4c3266695783e5c4000eba42b8a8737302"
+  },
+  "quad3d_v0_model.yaml": {
+    "source": "project_code\\RRTstarDFPFF_paper_r2_float32_strict_20261010\\benchmark\\models\\paper\\quad3d_v0.yaml",
+    "sha256": "9889824bdaac66fa97e2bd0491f4637ce76f9ef21aea56af3624e0105dd088a9"
+  },
+  "quad2d_v0_model.yaml": {
+    "source": "project_code\\dynobench-main\\dynobench-main\\models\\quad2d_v0.yaml",
+    "sha256": "36cc5df637fd7197e20e129cf0b3810430db058eb336bbc0ac67f498750e960a"
+  }
+}

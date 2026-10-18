@@ -1,0 +1,10 @@
+scenario,seed,repeat,budget_seconds,has_solution,cost,trajectory_length_m,duration,available_seconds,trajectory_file,held_after_termination
+dynobench_quad3d_window,20,1,0.001,False,,,,,,False
+dynobench_quad3d_window,20,1,0.005,False,,,,,,False
+dynobench_quad3d_window,20,1,0.01,False,,,,,,False
+dynobench_quad3d_window,20,1,0.05,True,10.90324973833878,6.264189173417506,8.040583807482367,0.0297221,incumbents/dynobench_quad3d_window_20_1.yaml,True
+dynobench_quad3d_window,20,1,0.1,True,10.90324973833878,6.264189173417506,8.040583807482367,0.0297221,incumbents/dynobench_quad3d_window_20_1.yaml,True
+dynobench_quad3d_window,20,1,0.5,True,10.90324973833878,6.264189173417506,8.040583807482367,0.0297221,incumbents/dynobench_quad3d_window_20_1.yaml,True
+dynobench_quad3d_window,20,1,1.0,True,10.90324973833878,6.264189173417506,8.040583807482367,0.0297221,incumbents/dynobench_quad3d_window_20_1.yaml,True
+dynobench_quad3d_window,20,1,5.0,True,10.90324973833878,6.264189173417506,8.040583807482367,0.0297221,incumbents/dynobench_quad3d_window_20_1.yaml,True
+dynobench_quad3d_window,20,1,10.0,True,10.90324973833878,6.264189173417506,8.040583807482367,0.0297221,incumbents/dynobench_quad3d_window_20_1.yaml,True

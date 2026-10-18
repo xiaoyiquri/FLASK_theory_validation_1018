@@ -1,0 +1,93 @@
+result_version: 2
+source: D:\codex_talk\project_1\project_code\FLASK_theory_validation\examples\dynobench_uni_bugtrap.yaml
+input_configuration: {robot: unicycle, n: 2, r: 2, robot_radius: 0.125, sphere_cell_size: 0.2, bounds: {lower: [-10, -10, -1, -1], upper: [10, 10, 1, 1]}, dynobench: {environment: dynobench_data/uni_bugtrap.yaml, model: dynobench_data/unicycle1_v0_model.yaml, visual_model: dynobench_original_models/unicycle1_v0.yaml, model_profile: paper; original native model retained for visualization/comparison}, lifting: {start: {speed: 0.3}, goal: {speed: 0.3}}, planner: {type: rrtconnect, seed: 23, iterations: 1000000, max_nodes: 20000, timeout: 10, range: 0.25, shortcut: true, shortcut_attempts: 100, goal_bias: 0, connect_steps: 0}, validation: {step: 0.01, max_samples: 20000, simd: true, continuous_sphere_collision: false, enforce_physical_continuity: true, enforce_physical_endpoints: true}, rho: 1, weight: [[1, 0], [0, 1]], parameter_provenance: {r: paper practical r2; not the full-state Assumption 1 contract for quads, rho: "paper VII-A: 1", weight: user-specified identity; private experiment R unconfirmed, sampler: "uniform flat box; public OMPL reference, private VAMP experiment unconfirmed", range_bounds_radius_resolution_budget: explicit local settings; paper defaults unconfirmed, goal_bias_connect: "public RRTConnect: no goal bias, connect until trapped/reached or resource limit", validation: Algorithm 3 finite grid; extra continuous sphere certificate disabled}, recording: {checkpoints_seconds: [0.001, 0.005, 0.01, 0.05, 0.1, 0.5, 1, 5, 10]}, dynobench_environment_snapshot: {name: unicycle1_v0-bugtrap, environment: {min: [0.0, 0.0], max: [6, 6], obstacles: [{type: box, center: [4.5, 3], size: [0.2, 3.2]}, {type: box, center: [3, 1.5], size: [3.2, 0.2]}, {type: box, center: [3, 4.5], size: [3.2, 0.2]}, {type: box, center: [1.5, 4.05], size: [0.2, 1.1]}, {type: box, center: [1.5, 1.95], size: [0.2, 1.1]}]}, robots: [{type: unicycle1_v0, start: [3.8, 3, 0], goal: [5.2, 3, 0]}]}, dynobench_model_snapshot: {dynamics: unicycle1, max_vel: 1.0, min_vel: -0.5, max_angular_vel: 1.5, min_angular_vel: -1.5, size: [.5, .25], distance_weights: [1, .5], shape: box, dt: .1}, dynobench_visual_model_snapshot: {dynamics: unicycle1, max_vel: 0.5, min_vel: -0.5, max_angular_vel: 0.5, min_angular_vel: -0.5, size: [.5, .25], distance_weights: [1, .5], shape: box, dt: .1}}
+robot: unicycle
+planner: rrtconnect
+seed: 23
+n: 2
+r: 2
+rho: 1
+budget_seconds: 10
+planning_time_basis: wall elapsed search + Algorithm 4, excludes export and length integration
+numeric_precision: float64
+sampling_policy: flat_uniform
+validation_backend: avx2_double4x2_full
+asymptotic_optimality_verified: false
+continuous_control_certificate: false
+continuous_sphere_check: false
+planning_geometry: single sphere robot; conservative sphere cover of obstacles
+physical_continuity_enforced: true
+physical_endpoints_enforced: true
+dynobench_checker_verified: false
+reduced_order_result: false
+avx2_available: true
+sampling_step: 0.01
+goal_region_radius: 0
+flat_start: [3.7999999999999998, 3, 0.29999999999999999, 0]
+flat_goal: [5.2000000000000002, 3, 0.29999999999999999, 0]
+cost: ~
+duration: ~
+trajectory_length_m: ~
+segments:
+  []
+samples:
+  []
+success: false
+reason: timeout
+iterations: 785966
+nodes: 936
+bvp_queries: 998067
+shortcuts: 0
+extension_attempts: 786900
+valid_extensions: 934
+valid_extension_rate: 0.0011869360782818656
+planning_seconds: 10.000028800000001
+search_seconds: 10.000028800000001
+postprocessing_seconds: 0
+first_solution: ~
+final_solution: ~
+incumbents:
+  []
+first_solution_seconds: ~
+first_solution_cost: ~
+first_solution_length_m: ~
+cost_before_shortcut: ~
+terminated_early: false
+cost_time_semantics: first solution and accepted shortcuts only; hold incumbent after termination, no restarts
+validation:
+  edges: 491337
+  samples: 230277
+  batches: 29198
+  collision_rejections: 19171
+  physical_rejections: 471232
+  certificate_rejections: 0
+  interval_rejections: 470717
+  simd_batches: 29198
+  sample_budget_rejections: 0
+  flat_bound_rejections: 12955
+  failure_counts:
+    numeric: 0
+    branch: 0
+    speed_zero: 1
+    speed_min: 0
+    speed_max: 7901
+    omega: 450465
+    acceleration: 0
+    jerk: 0
+    thrust: 0
+    motor: 0
+    angular_acceleration: 0
+    singularity: 0
+    sample_limit: 0
+    Collision: 19171
+    FlatBounds: 12955
+    SampleBudget: 0
+profiling:
+  enabled: false
+  nearest_seconds: 0
+  bvp_seconds: 0
+  interval_seconds: 0
+  jet_seconds: 0
+  physical_seconds: 0
+  collision_seconds: 0
+  certificate_seconds: 0

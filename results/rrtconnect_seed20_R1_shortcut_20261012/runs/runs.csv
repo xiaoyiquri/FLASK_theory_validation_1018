@@ -1,0 +1,7 @@
+scenario,seed,status,reason,exit_code,nodes,cost,planning_seconds,planning_ms,search_seconds,trajectory_length_m,process_seconds,trajectory_file
+dynobench_uni_bugtrap,20,FAILED,timeout,2,985,,10.0000138,10000.013799999999,10.0000138,,10.108679600001778,results\rrtconnect_seed20_R1_shortcut_20261012\runs\dynobench_uni_bugtrap_20.yaml
+dynobench_uni_wall,20,SUCCESS,connected,0,526,48.11708287534471,1.7459797,1745.9796999999999,1.7333956,25.515813545920576,1.951543400005903,results\rrtconnect_seed20_R1_shortcut_20261012\runs\dynobench_uni_wall_20.yaml
+dynobench_quad2d_bugtrap,20,SUCCESS,connected,0,53,22.8093430673962,0.0290228,29.0228,0.0193707,14.099434131565753,0.2268915000022389,results\rrtconnect_seed20_R1_shortcut_20261012\runs\dynobench_quad2d_bugtrap_20.yaml
+dynobench_quad2d_hole,20,SUCCESS,connected,0,14,11.039676973140892,0.006869,6.869,0.0050798,5.646633059950046,0.15162960000452586,results\rrtconnect_seed20_R1_shortcut_20261012\runs\dynobench_quad2d_hole_20.yaml
+dynobench_quad3d_block,20,SUCCESS,connected,0,8,12.71111055955749,0.0134272,13.427200000000001,0.0084564,9.278102559532424,0.213081299996702,results\rrtconnect_seed20_R1_shortcut_20261012\runs\dynobench_quad3d_block_20.yaml
+dynobench_quad3d_window,20,SUCCESS,connected,0,35,13.030772389766106,0.0308294,30.8294,0.0273919,6.487181749056805,0.2179957999906037,results\rrtconnect_seed20_R1_shortcut_20261012\runs\dynobench_quad3d_window_20.yaml
